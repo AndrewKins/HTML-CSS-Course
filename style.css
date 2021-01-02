@@ -1,14 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
-button {
-  margin: 20rem;
-  padding: 2rem 4rem;
-  background: none;
-  border: 0.3rem bold rgb(0, 0, 255);
-  color: white;
-  font-size: 2.4rem;
-  border-radius: 1rem;
-  background: chocolate;
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  background: cadetblue;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 20%;
+  height: 20%;
+  background: crimson;
+}
+
+.box2 {
+  background: rgb(4, 0, 255);
 }
