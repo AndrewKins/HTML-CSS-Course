@@ -8,26 +8,13 @@ html {
   font-size: 62.5%;
 }
 
-html,
-body {
-  height: 100%;
-}
-
-.container {
-  background: cadetblue;
-  width: 80%;
-  height: 80%;
-  margin: auto;
-}
-
 .box1,
 .box2,
 .box3 {
-  width: 20%;
-  height: 20%;
-  background: crimson;
-}
-
-.box2 {
-  background: rgb(4, 0, 255);
+  min-width: 80rem;
+  width: 30rem;
+  height: 30rem;
+  border: 2px solid black;
+  margin: 1rem;
+  font-size: 2.8rem;
 }
