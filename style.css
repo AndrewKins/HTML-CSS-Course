@@ -8,6 +8,16 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background: lightslategray;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 4.8rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: rgb(138, 186, 248);
+  }
 }
